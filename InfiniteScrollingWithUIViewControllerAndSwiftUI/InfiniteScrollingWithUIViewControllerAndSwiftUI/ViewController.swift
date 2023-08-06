@@ -31,7 +31,6 @@ struct ContentView: View {
                     EmptyView()
                 }
             }
-            .frame(height: 200)
         }
         .onAppear {
             loadImages()
